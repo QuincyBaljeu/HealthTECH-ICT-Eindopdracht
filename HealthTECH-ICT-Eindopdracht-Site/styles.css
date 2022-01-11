@@ -1,0 +1,50 @@
+/* hier staat wat commentaar
+   en dat kan op verschillende regels */
+
+body {
+  font-family:sans-serif;
+  background:lightgrey;
+}
+
+h1,h2,p {
+  color:blue;
+}
+
+p.toch_niet_blauw {
+  color:darkred;
+}
+
+img {
+  width:10%;
+  height:10%
+}
+
+div {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.centreren  {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.div_toren {
+  padding:2%;
+  background-color:rgba(255, 255, 255, 0.4);
+}
+
+#titel {
+  border: 3px solid green;
+}
+
+#paragraaf {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 50px;
+  padding: 30px;
+  border-radius: 0px 25px 50px 75px;
+}

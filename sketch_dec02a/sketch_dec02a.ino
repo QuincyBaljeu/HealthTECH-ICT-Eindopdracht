@@ -95,6 +95,6 @@ void loop() {
     snprintf (msg, MSG_BUFFER_SIZE, "hello world #%ld", value);
     Serial.print("Publish message: ");
     Serial.println(msg);
-    mqttClient.publish("QuincyTest123", msg);
+    mqttClient.publish("QuincyTestASD", msg);
   }
 }
